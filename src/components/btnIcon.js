@@ -1,9 +1,9 @@
 import React from "react"
-import styles from "./btnIcon"
+import styles from "../styles/btnIcon.module.css"
 
 const BtnIcon = props => {
   return (
-    <button className={styles.button}>
+    <button className={styles.button} onClick={props.onClick}>
       <img src={props.iconSrc} />
     </button>
   )

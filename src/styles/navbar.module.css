@@ -2,8 +2,27 @@
   display: flex;
   width: 100vw;
   height: 64px;
-  padding: 0 16px;
   align-items: center;
+  justify-content: space-between;
+}
+
+.justifiedLeft {
+  display: inherit;
+  align-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  height: 100%;
+  padding-left: 16px;
+}
+
+.justifiedRight {
+  display: inherit;
+  align-content: flex-end;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+  height: 100%;
+  padding-right: 16px;
 }
 
 .logo {
