@@ -5,8 +5,16 @@
   height: 48px;
   padding: 0;
   border: none;
+  transition: all ease-in-out 150ms;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   background: var(--icon-btn-background--hover);
+}
+
+.button:active {
+  background: var(--icon-btn-background--active);
+  transform: scale(0.88);
+  transition: none;
 }

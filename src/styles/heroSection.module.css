@@ -1,0 +1,42 @@
+.section {
+  display: flex;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../assets/Hero-image.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.heroContent {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 242px;
+  text-align: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.h3 {
+  height: auto;
+  color: var(primary-text);
+}
+
+.h1 {
+  height: auto;
+  color: var(--primary-color--text);
+}
+
+.background {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background: var(navbar-background);
+  -webkit-backdrop-filter: var(--frosted-material);
+  backdrop-filter: var(--frosted-material);
+  mask-image: var(--hero-content-mask);
+  z-index: -1;
+}
