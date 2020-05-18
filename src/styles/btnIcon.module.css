@@ -1,0 +1,12 @@
+.button {
+  background: var(--icon-btn-background);
+  border-radius: 8px;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: none;
+}
+
+.button:hover {
+  background: var(--icon-btn-background--hover);
+}

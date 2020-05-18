@@ -1,0 +1,11 @@
+html,
+body {
+  margin: 0;
+}
+
+:root {
+  --primary-text: rgba(0, 0, 0, 1);
+
+  --icon-btn-background: rgba(0, 0, 0, 0);
+  --icon-btn-background--hover: rgba(0, 0, 0, 0.16);
+}
